@@ -24,11 +24,11 @@
   
   .container {
     display: flex;
-    width: min-content;
+    width: 30%;
     justify-content: center;
     align-content: center;
     flex-flow: column;
-    margin: 5% auto;
+    margin: 10% auto;
   }
   .localBeat-window {
     background-color: black;
