@@ -28,7 +28,7 @@
     justify-content: center;
     align-content: center;
     flex-flow: column;
-    margin: 5% 30% 5% 30%;
+    margin: 5% auto;
   }
   .localBeat-window {
     background-color: black;
@@ -108,7 +108,7 @@
   
   .submit {
     width: 50%;
-    margin: 5% auto;
+    margin: auto;
     padding: 15px 30px;
     background: white;
     border-radius: 50px;
