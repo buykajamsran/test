@@ -9,7 +9,7 @@ function setup() {
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
   stroke(255);
-  frameRate(10);
+  frameRate(15);
 }
 
 function draw() {
@@ -17,6 +17,6 @@ function draw() {
   let rand = 0;
   for (let i = 1; i < steps; i++) {
     point((width / steps) * i, height / 2 + random(-rand, rand));
-    rand += random(-10, 10);
+    rand += random(-40, 40);
   }
 }

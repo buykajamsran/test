@@ -28,7 +28,7 @@
     justify-content: center;
     align-content: center;
     flex-flow: column;
-    margin: 10% auto;
+    margin: 5% auto;
   }
   .localBeat-window {
     background-color: black;
@@ -73,6 +73,10 @@
     border-right: 2px solid white;
     border-top-right-radius: 40px;
   }
+
+  .dropdown {
+    width: 100%;
+  }
   
   .genre-menu {
     list-style: none;
@@ -103,6 +107,8 @@
   }
   
   .submit {
+    width: 50%;
+    margin: 5% auto;
     padding: 15px 30px;
     background: white;
     border-radius: 50px;
