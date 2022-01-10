@@ -24,7 +24,7 @@
   
   .container {
     display: flex;
-    width: max-content;
+    width: min-content;
     justify-content: center;
     align-content: center;
     flex-flow: column;
