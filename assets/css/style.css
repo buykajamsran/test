@@ -24,9 +24,9 @@
   
   .container {
     display: flex;
-    width: auto;
+    width: 320px;
     justify-content: center;
-    align-content: space-evenly;
+    align-content: center;
     flex-flow: column;
     margin: 5% auto;
   }
@@ -114,6 +114,7 @@
     border-radius: 50px;
     font-weight: bold;
     font-size: 20px;
+    color: black;
   }
 
   @include mobile{}
